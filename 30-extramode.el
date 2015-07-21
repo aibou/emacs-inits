@@ -6,5 +6,6 @@
 (require 'auto-complete)
 (require 'go-autocomplete)
 (require 'auto-complete-config)
+(require 'go-flymake)
 
-(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
+(require 'flymake-ruby)
