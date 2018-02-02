@@ -28,13 +28,3 @@
   (cons (cons "\\.*$" (expand-file-name "~/.emacs.d/backup"))
     backup-directory-alist))
 
-; show paren with color
-(show-paren-mode 1)
-
-; using utf-8 in shell-mode
-(set-language-environment "Japanese")
-(prefer-coding-system 'utf-8-mac)
-(setq default-buffer-file-coding-system 'utf-8)
-(set-terminal-coding-system 'utf-8)
-(set-keyboard-coding-system 'utf-8)
-(set-clipboard-coding-system 'utf-8) 
