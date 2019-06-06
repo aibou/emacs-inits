@@ -30,7 +30,7 @@ put a file of init.el to ~/.emacs.d
 
 put a file of init-loader.el to ~/.emacs.d/site-lisp
 
-    curl https://raw.githubusercontent.com/emacs-jp/init-loader/master/init-loader.el > ~/.emacs.d/site-lisp
+    curl https://raw.githubusercontent.com/emacs-jp/init-loader/master/init-loader.el > ~/.emacs.d/site-lisp/init-loader.el
 
 run emacs
 
