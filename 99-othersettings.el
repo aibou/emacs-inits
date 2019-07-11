@@ -1,5 +1,5 @@
 (when (require 'saveplace nil t)
-  (setq-default save-place t)
+  (save-place-mode 1)
     (setq save-place-file "~/.emacs.d/saved-places"))
 
 (electric-indent-mode 0)
