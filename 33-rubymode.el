@@ -5,7 +5,8 @@
 
 (setq ruby-insert-encoding-magic-comment nil)
 ;; flymakeを使うときはflycheckを起動しておく必要がある
-(add-hook 'ruby-mode-hook 'flycheck-mode)
+;; と思ったが、なくても動いた
+;; (add-hook 'ruby-mode-hook 'flycheck-mode)
 
 (require 'flymake-ruby)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
